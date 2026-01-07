@@ -1,0 +1,13 @@
+digraph {
+	1 [label="我"]
+	2 -> 1 [label=nsubj]
+	2 [label="喜欢"]
+	3 [label="学习"]
+	6 -> 3 [label=advcl]
+	4 [label="自然"]
+	5 -> 4 [label=nmod]
+	5 [label="语言"]
+	3 -> 5 [label=obj]
+	6 [label="处理"]
+	2 -> 6 [label=xcomp]
+}

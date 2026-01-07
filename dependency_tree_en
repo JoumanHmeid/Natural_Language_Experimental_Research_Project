@@ -1,0 +1,15 @@
+digraph {
+	1 [label=I]
+	2 -> 1 [label=nsubj]
+	2 [label=love]
+	3 [label=learning]
+	2 -> 3 [label=xcomp]
+	4 [label=about]
+	7 -> 4 [label=case]
+	5 [label=natural]
+	6 -> 5 [label=amod]
+	6 [label=language]
+	7 -> 6 [label=compound]
+	7 [label=processing]
+	3 -> 7 [label=obl]
+}

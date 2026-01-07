@@ -1,0 +1,11 @@
+digraph {
+	1 [label="Doğal"]
+	2 -> 1 [label=amod]
+	2 [label=dil]
+	4 -> 2 [label="nmod:poss"]
+	3 [label="işleme"]
+	4 -> 3 [label=nmod]
+	4 [label="çalışmalarını"]
+	5 -> 4 [label=obj]
+	5 [label=seviyorum]
+}
